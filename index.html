@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DitzyDoo</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div id="container" style="background-color: #ccc;">
+        <canvas id="canvas" style="width: 200%;margin: 100px;"></canvas>
+    </div>
+
+    <script type="module">
+        import DitzyDoo from "./dist/DitzyDoo.js";
+
+        window.instance = new DitzyDoo();
+    </script>
+    <script src="/static/scroll.js"></script>
+</body>
+</html>

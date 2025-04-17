@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#canvas {
+    image-rendering: pixelated;
+    display: block;
+    transition: transform 500ms;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+#container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -16px; /* FIXME: This is probably not the right way of doing this */
+    width: 100vw;
+    overflow: auto;
+}
